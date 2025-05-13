@@ -1,0 +1,151 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "dattes",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "typeDeDatte",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "hashImageIPFS",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "localisation",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "producteur",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "dateDetection",
+				"type": "string"
+			},
+			{
+				"internalType": "uint8",
+				"name": "confiance",
+				"type": "uint8"
+			},
+			{
+				"internalType": "address",
+				"name": "auteur",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_typeDeDatte",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_hashImageIPFS",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_localisation",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_producteur",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_dateDetection",
+				"type": "string"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_confiance",
+				"type": "uint8"
+			}
+		],
+		"name": "enregistrerDatte",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "getDatte",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			},
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "totalDattes",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
